@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "blog-app"
+name = "CRUD-app-FastAPI"
 version = "0.1.0"
 description = ""
 authors = ["OLuwatobiTobias <giwaoluwatobi@gmail.com>"]
 readme = "README.md"
-packages = [{include = "blog_app"}]
+packages = [{include = "CRUD_app"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -18,7 +18,7 @@ motor = "^3.1.1"
 pytest = "^7.2.1"
 
 [tool.poetry.scripts]
-start = "blog_app.main:start_application"
+start = "CRUD_app.main:start_application"
 
 [build-system]
 requires = ["poetry-core"]
