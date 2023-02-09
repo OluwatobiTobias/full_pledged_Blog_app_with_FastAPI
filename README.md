@@ -1,1 +1,1 @@
-## A Blog Application backened in FastAPI. :+1:
+## A CRUD backened in FastAPI. :+1: :+1:
