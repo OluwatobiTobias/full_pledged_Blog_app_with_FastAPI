@@ -11,7 +11,7 @@ class StudentSchema(BaseModel):
     class Config:
         schema_extra = {
             "example": {
-                "fullname": "John Doe",
+                "full_name": "John Doe",
                 "email": "joe@x.edu.ng",
                 "course_of_study": "Water resources engineering",
                 "year": 2,
@@ -20,7 +20,7 @@ class StudentSchema(BaseModel):
         }
 
 class UpdateStudentModel(BaseModel):
-    fullname: Optional[str]
+    full_name: Optional[str]
     email: Optional[EmailStr]
     course_of_study: Optional[str]
     year: Optional[int]
@@ -29,7 +29,7 @@ class UpdateStudentModel(BaseModel):
     class Config:
         schema_extra = {
             "example": {
-                "fullname": "John Doe",
+                "full_name": "John Doe",
                 "email": "jdoe@x.edu.ng",
                 "course_of_study": "Water resources and environmental engineering",
                 "year": 4,
